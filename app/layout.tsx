@@ -17,7 +17,9 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Daniel Solch | Personal Website",
-  description: "Daniel Solch is a maths PhD student at the University of Aberdeen.",
+  description: "Daniel Solch is a PhD student in mathematics at the University of Aberdeen.",
+  keywords: ['Daniel Sölch', 'Daniel Solch', 'Daniel Soelch'],
+  creator: 'Daniel Sölch',
 };
 
 export default function RootLayout({

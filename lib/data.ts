@@ -104,6 +104,7 @@ export const conferencesData = [
     },
 ] as const;
 
+
 export const talksData = [
     {
         title: "Representation Cohomology of a small Category",
@@ -111,4 +112,9 @@ export const talksData = [
         location: "PGR Seminar, University of Aberdeen",
         date: "2025",
     }
-]
+];
+
+{/*
+        <span> <a href='https://sites.google.com/view/aberdeen-maths-seminar/home'>PGR Seminar</a>, University of Aberdeen</span>
+*/}
+        

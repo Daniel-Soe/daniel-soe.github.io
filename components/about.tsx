@@ -17,7 +17,7 @@ export default function About() {
       id="about" ref={ ref } >
         <SectionHeading>About me</SectionHeading>
         <p className='text-xl font-normal sm:leading-13 sm:text-3xl'>
-            I am a PhD student at the University of Aberdeen, supervised by Ran Levi. 
+            I am a PhD student at the University of Aberdeen, supervised by <a href='https://www.abdn.ac.uk/people/r.levi' className='font-bold hover:underline'> Ran Levi</a>. 
             My research lies in algebraic topology, with a particular focus on fusion systems and the relationship between classifying spaces and linking systems. 
             I am also interested in category theory and its applications to computer science as well as topological data analysis.
         </p>

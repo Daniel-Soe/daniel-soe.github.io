@@ -33,7 +33,8 @@ export default function Intro() {
                 transition={{ type: "tween", duration: 0.2, }}>
             <h1 className='text-4xl mb-4 font-bold' >Daniel Sölch</h1>
             <p>
-                I am currently a PhD student at the University of Aberdeen. My research under Professor Ran Levi is centered around Fusion Systems. 
+                I am a PhD student in mathematics at the University of Aberdeen, working in algebraic topology.
+                {/* I am currently a PhD student at the University of Aberdeen. My research under Professor Ran Levi is centred around Fusion Systems. */}
             </p>
         </motion.section>
         
