@@ -22,7 +22,7 @@ export default function Intro() {
                 animate={{ opacity:1, scale: 1 }}
                 transition={{ type: "tween", duration: 0.2, }}
             >
-                <Image src={profile} alt='Daniel Solch portrait' priority={true} 
+                <Image src={profile} alt='Daniel Sölch portrait' priority={true} 
                 className='h-32 w-32 rounded-full object-cover border-[0.35rem] border-white shadow-xl' />
             </motion.div>
         </div>
