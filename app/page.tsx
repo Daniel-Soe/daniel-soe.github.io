@@ -1,6 +1,7 @@
 import About from "@/components/about";
 import Conferences from "@/components/conferences";
 import Intro from "@/components/intro";
+import Publications from "@/components/publications";
 import SectionDivider from "@/components/section-divider";
 import Vita from "@/components/vita";
 
@@ -13,6 +14,7 @@ export default function Home() {
         <SectionDivider />
         <About />
         <Vita />
+        <Publications />
         <Conferences />
       </main>
     </div>

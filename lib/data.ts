@@ -15,7 +15,11 @@ export const links = [
         hash: "#vita",
     },
     {
-        name: "Seminars & Conferences",
+        name: "Publications",
+        hash: "#publications"
+    },
+    {
+        name: "Conferences",
         hash: "#conferences",
     },
 ] as const;
@@ -80,8 +84,22 @@ export const experienceData = [
     },
 ] as const;
 
+export const preprintsData = [
+    {
+        title: "Representation Cohomology of a Small Category (with Markus Klemetti, Ran Levi and Henri Riihimaki)",
+        link: "https://arxiv.org/abs/2604.20527",
+        date: "2026",
+    }
+
+] as const;
+
 
 export const conferencesData = [
+    {
+        title: "Homotopy Structures in Barcelona Conference",
+        location: "Universitat Autònoma de Barcelona – CRM",
+        date: "9-13 February 2026",
+    },
     {
         title: "Categories Networking Project 8",
         location: "University of Aberdeen",

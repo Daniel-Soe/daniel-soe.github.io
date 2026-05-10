@@ -6,7 +6,7 @@ import { useSectionInView } from '@/lib/hooks';
 import { conferencesData, talksData } from '@/lib/data';
 
 export default function Conferences() {
-  const { ref } = useSectionInView("Seminars & Conferences");
+  const { ref } = useSectionInView("Conferences");
 
   return (
     <section className="mb-28 max-w-180 text-center leading-8 sm:mb-40 scroll-mt-28"
