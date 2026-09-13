@@ -9,7 +9,7 @@ export default function Conferences() {
   const { ref } = useSectionInView("Conferences");
 
   return (
-    <section className="mb-28 max-w-180 text-center leading-8 sm:mb-40 scroll-mt-28"
+    <section className="mb-28 max-w-190 text-center leading-8 sm:mb-40 scroll-mt-28"
       id="conferences" ref={ref}>
         <SectionHeading>Talks & Conferences</SectionHeading>
 
@@ -28,10 +28,10 @@ export default function Conferences() {
             <tbody className="text-sm sm:text-base">
               {talksData.map((talk, index) => (
                 <tr key={index} className="align-top">
-                  <td className="py-2 pr-8 text-left text-gray-600 dark:text-gray-400">
+                  <td className="py-2 pr-2 sm:pr-8 text-left text-gray-600 dark:text-gray-400">
                     {talk.date}
                   </td>
-                  <td className="py-2 pr-8 text-left font-medium text-gray-900 dark:text-white">
+                  <td className="py-2 pr-2 sm:pr-8 text-left font-medium text-gray-900 dark:text-white">
                     {talk.title}
                   </td>
                   <td className="py-2 text-left  text-gray-600 dark:text-gray-400">
@@ -58,10 +58,10 @@ export default function Conferences() {
         <tbody className="text-sm sm:text-base">
           {conferencesData.map((conference, index) => (
             <tr key={index} className="align-top">
-              <td className="py-2 pr-8 text-left text-gray-600 dark:text-gray-400">
+              <td className="py-2 pr-2 sm:pr-8 text-left text-gray-600 dark:text-gray-400">
                 {conference.date}
               </td>
-              <td className="py-2 pr-8 text-left font-medium text-gray-900 dark:text-white">
+              <td className="py-2 pr-2 sm:pr-8 text-left font-medium text-gray-900 dark:text-white">
                 {conference.title}
               </td>
               <td className="py-2 text-left  text-gray-600 dark:text-gray-400">

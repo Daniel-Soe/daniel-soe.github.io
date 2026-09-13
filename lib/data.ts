@@ -96,6 +96,26 @@ export const preprintsData = [
 
 export const conferencesData = [
     {
+        title: "Higher Structures in Category Theory, Homotopy Theory and Type Theory",
+        location: "University of Aberdeen",
+        date: "8-9 September 2026",
+    },
+    {
+        title: "Groups and Stable Homotopy Theory",
+        location: "University of Aberdeen",
+        date: "26-28 August 2026",
+    },
+    {
+        title: "Edinburgh Matematical Society PhD Students Meeting",
+        location: "The Burn, Scotland",
+        date: "17-19 August 2026",
+    },
+    {
+        title: "Young Topologist Meeting 2026",
+        location: "University of Copenhagen",
+        date: "29 June - 3 July 2026",
+    },
+    {
         title: "Homotopy Structures in Barcelona Conference",
         location: "Universitat Autònoma de Barcelona – CRM",
         date: "9-13 February 2026",
@@ -125,11 +145,16 @@ export const conferencesData = [
 
 export const talksData = [
     {
+        title: "Classifying Spaces of p-local finite groups",
+        location: "EMS PhD Students Meeting, The Burn",
+        date: "2026",
+    },
+    {
         title: "Representation Cohomology of a small Category",
         seminar: "PGR Seminar",
         location: "PGR Seminar, University of Aberdeen",
         date: "2025",
-    }
+    },
 ];
 
 {/*
