@@ -16,7 +16,7 @@ export default function Publications() {
         
 
         <h2 className='text-left font-medium text-3xl mb-1' >Preprints</h2>
-        <ul className='list-disc text-left text-sm sm:text-base py-2 pr-8 text-gray-900 dark:text-white'>
+        <ul className='list-disc text-left text-sm sm:text-base py-2 pr-8 pl-4 text-gray-900 dark:text-white'>
             <li><a href='https://arxiv.org/abs/2604.20527' className="font-medium hover:underline underline-offset-4">Representation Cohomology of a Small Category</a> 
             {" "} (with Markus Klemetti, Ran Levi and Henri Riihimäki)</li>
           </ul>
